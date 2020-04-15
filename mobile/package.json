@@ -6,7 +6,8 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "shake": "adb shell input keyevent 82"
+    "buildAndroid": "expo build:android -t apk",
+    "buildIOS": "expo build:ios"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.6",
